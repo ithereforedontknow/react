@@ -1,0 +1,42 @@
+.text {
+  text-align: center;
+}
+.text h1 {
+  font-size: 50px;
+}
+.text h2 {
+  margin-top: -30px;
+  font-weight: 300;
+}
+.text a {
+  text-decoration: none;
+  color: ghostwhite;
+}
+.button {
+  outline: none;
+  cursor: pointer;
+  border: none;
+  padding: 0.9rem 2rem;
+  font-family: inherit;
+  font-size: inherit;
+  display: inline-block;
+  letter-spacing: 0.05rem;
+  font-weight: 700;
+  font-size: 17px;
+  border-radius: 500px;
+  overflow: hidden;
+  background: #538d66;
+  color: white;
+  transition: 0.3s;
+}
+.button:hover {
+  background-color: #223243;
+}
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image img {
+  width: 450px;
+}
