@@ -4,10 +4,23 @@ function Nav() {
   return (
     <header className={styles.header}>
       <nav className={styles.topnav}>
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">FAQ</a>
-        <a href="#">About</a>
+        <ul>
+          <li>
+            <a href="">Logo</a>
+          </li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Features</a>
+          </li>
+          <li>
+            <a href="#">FAQ</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+        </ul>
       </nav>
     </header>
   );

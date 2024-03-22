@@ -1,12 +1,17 @@
 .text {
-  text-align: center;
+  margin: 150px;
 }
 .text h1 {
-  font-size: 50px;
+  font-size: 60px;
+  margin-bottom: 10px;
 }
 .text h2 {
-  margin-top: -30px;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+.text h3 {
   font-weight: 300;
+  margin-bottom: 20px;
 }
 .text a {
   text-decoration: none;
@@ -32,11 +37,10 @@
 .button:hover {
   background-color: #223243;
 }
-.image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.image img {
-  width: 450px;
+
+@media (max-width: 800px) {
+  .text {
+    text-align: center;
+    margin: 50px;
+  }
 }
